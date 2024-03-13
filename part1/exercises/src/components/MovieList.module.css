@@ -1,7 +1,10 @@
 .movieText {
-   color: black;
+   color: teal;
+   text-align: left;
+   font-size: 1.0vw;
 }
 
 .movieHeading {
-   color: black;
+   color: red;
+   text-align: left
 }
