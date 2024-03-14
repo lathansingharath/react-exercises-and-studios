@@ -3,12 +3,12 @@
    font-family: 'Times New Roman', Times, serif;
    font-size: 1.1vw; 
    font-style: italic;
-   
+   text-align: left;
    
 }
-
 .choresHeading {
    color: blueviolet;
    text-decoration: underline;
+   text-align: left;
    
 }
