@@ -1,10 +1,15 @@
 import './styles.css';
 
 function Button() {
+   function onLearnMore() {
+      alert("Woah, you're at the ocean");
+
+
+   }
 
    return ( 
-         <button>
-            Learn More
+         <button onClick={onLearnMore}>
+            Click away
          </button>
    );
 }
