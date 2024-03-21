@@ -1,12 +1,19 @@
-export default function HobbyIntroduction () {
-   return(
-      <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
-         <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
-         </ol>
-      </div>
+export default function HobbyIntroduction() {
+   return (
+       <div>
+           <h2>3 Fun Facts Abourt My Motorcycle Hobby</h2>
+           <ol>
+               <li>I was once caught in a hail while riding</li>
+               <li>Been riding for 20 years</li>
+               <li>I was on a 10-hour bike tour at one time</li>
+           </ol>
+
+
+
+       </div>       
+
+
    );
+
+
 }
