@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.allrecipes.com/shelia-johnson-7113612";
+   let authorPhoto = "https://www.allrecipes.com/thmb/lO2OOrIbOROzq6ggStR3s_0PAZQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/CookingwithSheliaSheliaJohnson-911cfec63f3b433eb6a07f95f88edd77.jpeg";
+   let authorName = "Shelia Johnson";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["white rice","bell pepper","tofu","water","black beans"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
